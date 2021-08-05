@@ -23,10 +23,7 @@ app.use(bodyParser.urlencoded({
 }));
 
 var con = mysql.createConnection({
-    host: "159.65.5.79",
-    user: "thai",
-    password: "FridayThaiday",
-    database: "orders"
+    
 });
 
 con.connect(function (err) {
